@@ -18,4 +18,4 @@ def get_data(days):
 d, t = get_data(days)
 
 figure = px.line(x=d, y=t, labels={"x": "Date", "y": "Temperature (C)"})     #expects a x, y, and labels
-st.plotly_chart(figure)                                             #Plotly and Bokeh
+st.plotly_chart(figure)                                                     #Plotly and Bokeh
